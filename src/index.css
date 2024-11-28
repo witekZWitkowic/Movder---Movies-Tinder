@@ -52,8 +52,8 @@
     z-index: 0;
   }
 
-  @media screen and (max-width: 375px){
+  @media screen and (max-height: 670px){
     .card-bg{
-      bottom: 10vh;
+      bottom: 5vh;
     }
   }

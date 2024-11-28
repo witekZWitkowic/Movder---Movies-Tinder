@@ -15,7 +15,7 @@ const MovieCard = ({ movie, onSwipe }: MovieCardProps) => {
       key={movie.id}
       className={cn(
         //Universal
-        "swipe pressable w-[300px] h-[430px] flex flex-col items-center justify-evenly card-bg rounded-3xl m-auto absolute cursor-pointer",
+        "swipe pressable w-[300px] h-[470px] flex flex-col items-center justify-evenly card-bg rounded-3xl m-auto absolute cursor-pointer",
         //Small
         "sm:w-[390px] sm:h-[590px] sm:top-[140px]",
         //Medium

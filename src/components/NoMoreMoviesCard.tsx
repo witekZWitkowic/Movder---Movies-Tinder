@@ -8,7 +8,7 @@ const NoMoreMoviesCard = ({className}: Props) => {
     <div
     className={cn(
         //Universal
-        "swipe pressable w-[300px] h-[430px] flex flex-col items-center justify-evenly card-bg rounded-3xl m-auto duration-300 !left-[-3000px]",
+        "swipe pressable w-[300px] h-[450px] flex flex-col items-center justify-evenly card-bg rounded-3xl m-auto duration-300 !left-[-3000px]",
         //Small
         "sm:w-[390px] sm:h-[590px] sm:top-[140px]",
         //Medium
